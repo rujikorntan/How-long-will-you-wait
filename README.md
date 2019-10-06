@@ -25,5 +25,17 @@ npm run test
 npm run lint
 ```
 
+### init firebase
+```
+firebase init
+```
+
+### deploy firebase
+```
+npm run build
+firebase deploy --only hosting:hci-assign
+```
+
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
